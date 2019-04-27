@@ -16,6 +16,7 @@ class MembershipsControllerTest < ActionController::TestCase
     post :create, group_id: babhamozo_group.id
     current_user.memberships.reload
 
+    assert_equal(1, babhamozo_group.leader.user.notifications.count)
     assert_not_nil(current_user.membership_for(babhamozo_group))
     assert_redirected_to :back
   end

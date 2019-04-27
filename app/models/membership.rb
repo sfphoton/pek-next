@@ -2,6 +2,8 @@ class Membership < ActiveRecord::Base
   self.table_name = 'grp_membership'
   self.primary_key = :id
 
+  include Notifications::MembershipNotifier
+
   alias_attribute :group_id, :grp_id
   alias_attribute :user_id, :usr_id
   alias_attribute :start_date, :membership_start
