@@ -77,3 +77,8 @@ evaluation_giver_group2:
   id: 15
   usr_id: 8000
   grp_id: 301
+
+leader_membership_for_hambis:
+  id: 16
+  grp_id: 4
+  usr_id: 5001

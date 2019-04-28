@@ -91,6 +91,14 @@ user_with_primary_membership:
   usr_svie_primary_membership: 4
   usr_svie_member_type: RENDESTAG
 
+hambis_leader:
+  usr_id: 5001
+  usr_firstname: Leader
+  usr_lastname: Hambis
+  usr_screen_name: fuck_fixtures
+  usr_svie_primary_membership: 16
+  usr_svie_member_type: RENDESTAG
+
 archived_active_babhamozo_member:
   usr_id: 5005
   usr_firstname: Archi

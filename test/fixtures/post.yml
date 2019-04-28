@@ -17,3 +17,7 @@ evaluation_giver_to_leader1:
 evaluation_giver_to_leader2:
   grp_member_id: 15
   pttip_id: 3
+
+hambis_leader:
+  grp_member_id: 16
+  pttip_id: 3
